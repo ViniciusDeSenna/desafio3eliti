@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: blue;
+    padding: 10px;
+    min-width: 100vh;
+}
+
+.conteudo2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 450px;
+}
+
+.fotoperfil {
+    border-radius: 100%;
+}
+
+.fotos {
+    padding-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 200vh;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
